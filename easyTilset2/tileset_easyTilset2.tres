@@ -1,0 +1,12 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dibx5o3cxsp66"]
+
+[ext_resource type="Texture2D" uid="uid://belwr84vkrqax" path="res://easyTilset2/tileset_easyTilset2.png" id="1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f6c0x"]
+texture = ExtResource("1")
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+sources/0 = SubResource("TileSetAtlasSource_f6c0x")
